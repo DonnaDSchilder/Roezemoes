@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: #85a03c;
+  position: sticky;
+  top: 0;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+header nav li {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+header nav a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  justify-content: center;
+  color: #190a05;
+  padding: 0;
+  margin: 0;
+}
+
+header nav img {
+  width: auto;
+  height: 45px;
+  padding-right: 1.2em;
+  justify-content: left;
+}
+
+header nav img:hover {
+  transform: scale(1.05);
+}
+
+
+/*https://chatgpt.com/share/678d2d07-6a54-800c-8f48-9ee8db470da0*/
+
+.nav-iconen {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-right: 2em;
+}
+
+.nav-iconen p {
+  padding: 0;
+}
+
+.nav-iconen p {
+  font-size: 1em;
+  font-family: "Roboto", serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #ffffff;
+  padding-bottom: 0.15em;
+}
+
+.nav-iconen img {
+  padding: 0;
+  width: auto;
+  height: 50px;
+  
+}
+
+.nav-iconen:hover {
+  transform: scale(1.1);
+}
+
+
+
+body {
+  background-color: #f9e4d7;
+  overflow-x: hidden;
+}
+
+
+.titel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.titel img {
+  width: auto;
+  height: 60px;
+  padding-inline: 1em;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  font-family: "Roboto Condensed", serif;
+  font-weight: Bold;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+  text-align: center;
+  font-family: "Roboto Condensed", serif;
+  font-weight: Bold;
+  font-style: normal;
+}
+
+.subsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2em;
+}
+
+h3 {
+  font-size: 1em;
+  text-align: center;
+  font-family: "Roboto", serif;
+  word-break: normal;
+  font-weight: Bold;
+}
+
+article > section img {
+  width: auto;
+  height: 120px;
+  padding-top: 1em;
+}
+
+article > section {
+  align-content: center;
+  text-align: center;
+}
+
+p {
+  font-size: 1em;
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-weight: normal;
+  font-style: normal;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 1em;
+  word-break: normal;
+}
+
+section p {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+
+
+.meer_info-button {
+  width: 220px;
+  height: 50px;
+  background-image: url("images/meer-info_button01.svg");
+  background-size: cover;
+  transition: 0.2s ease-in-out;
+  display: inline-block;
+  text-decoration: none;
+  padding-bottom: 7em;
+}
+
+.meer_info-button:hover {
+  background-image: url("images/meer-info_button02.svg");
+}
+
+
+.meedoen-button {
+  display: inline-block;
+  width: 220px;
+  height: 50px;
+  background-image: url("images/ik-doe-mee_button01.svg");
+  background-size: cover;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+  padding-bottom: 8em;
+}
+
+.meedoen-button:hover {
+  background-image: url("images/ik-doe-mee_button02.svg");
+}
+
+
+.stappen-links {
+  display: flex;
+  align-items: center;
+  padding-top: 2em;
+}
+
+.stappen-links img {
+  width: auto;
+  height: 100px;
+  padding: 0;
+  padding-left: 1.5em;
+  padding-right: 0.9em;
+  align-self: baseline;
+}
+
+.stappen-links h3,
+.stappen-links p {
+  text-align: left;
+  padding-left: 0;
+  padding-top: 0.2em;
+}
+
+.stappen-rechts {
+  display: flex;
+  align-items: center;
+  padding-top: 2.5em;
+}
+
+.stappen-rechts img {
+  width: auto;
+  height: 100px;
+  padding: 0;
+  padding-left: 0.9em;
+  padding-right: 1.5em;
+  align-self: baseline;
+}
+
+.stappen-rechts h3,
+.stappen-rechts p {
+  text-align: right;
+  padding-right: 0;
+  padding-top: 0.1em;
+}
+
+
+footer {
+  background-color: #445224;
+  padding: 1em;
+  color: #ffffff;
+}
+
+footer > p {
+  padding: 0;
+  text-align: left;
+  font-size: 1em;
+  font-family: "Roboto", serif;
+  font-weight: bold;
+  font-style: normal;
+}
