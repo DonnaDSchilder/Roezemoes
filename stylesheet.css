@@ -93,6 +93,7 @@ header nav img:hover {
 body {
   background-color: #f9e4d7;
   overflow-x: hidden;
+  overflow-y: inherit;
 }
 
 
